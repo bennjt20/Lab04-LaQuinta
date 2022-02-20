@@ -200,6 +200,7 @@ ggplot(dn_lq, mapping = aes(x = longitude, y = latitude, color = establishment))
 The following two questions ask you to create visualizations. These vizualizations should follow best practices you learned in class, such as informative titles, axis labels, etc. See http://ggplot2.tidyverse.org/reference/labs.html for help with the syntax. You can also choose different themes to change the overall look of your plots, see http://ggplot2.tidyverse.org/reference/ggtheme.html for help with these.
 
 ### Exercise 11 
+Based on the visual representation of the data, Mitch Hedberg’s joke applies somewhat loosely. There are a few pockets where the two establishments are close together.
 
 ```{r Ex11}
 ggplot(dennys_laquinta %>% filter(state == "NC"),
@@ -210,7 +211,7 @@ ggplot(dennys_laquinta %>% filter(state == "NC"),
 Filter the data for observations in North Carolina only, and recreate the plot. You should also adjust the transparency of the points, by setting the alpha level, so that it’s easier to see the overplotted ones. Visually, does Mitch Hedberg’s joke appear to hold here?
 
 ### Exercise 12
-
+Based on the visual representation of the data, Mitch Hedberg’s joke certainly applies in Texas. The two establishments seem to cluster together densely. 
 
 ```{r Ex12}
 ggplot(dennys_laquinta %>% filter(state == "TX"),
