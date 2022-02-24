@@ -1,6 +1,6 @@
 ---
 title: "Lab 04 - La Quinta is Spanish for next to Denny's, Pt. 1"
-author: "John Bennett"
+author: "John Bennett2"
 date: "Feb 20, 2022"
 output: github_document
 ---
